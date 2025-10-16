@@ -9,17 +9,17 @@ import type { Property } from '../types/models';
 const PropertyList: React.FC = () => {
   return (
     <div>
-      <h2>🏡 Catálogo de Propiedades</h2>
+      <h2>Catálogo de Propiedades</h2>
       <p>Mostrando {mockProperties.length} propiedades.</p>
       
       <table style={{ width: '100%', borderCollapse: 'collapse', marginTop: '15px' }}>
         <thead>
-          <tr style={{ backgroundColor: '#f2f2f2' }}>
-            <th style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'left' }}>Dirección</th>
-            <th style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'left' }}>Ciudad</th>
-            <th style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'right' }}>Precio</th>
-            <th style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>Dormitorios</th>
-            <th style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>Estado</th>
+          <tr style={{ backgroundColor: '#007bff' }}>
+            <th style={{ padding: '8px', border: '1px solid #007bff', textAlign: 'left' }}>Dirección</th>
+            <th style={{ padding: '8px', border: '1px solid #007bff', textAlign: 'left' }}>Ciudad</th>
+            <th style={{ padding: '8px', border: '1px solid #007bff', textAlign: 'right' }}>Precio</th>
+            <th style={{ padding: '8px', border: '1px solid #007bff', textAlign: 'center' }}>Dormitorios</th>
+            <th style={{ padding: '8px', border: '1px solid #007bff', textAlign: 'center' }}>Estado</th>
           </tr>
         </thead>
         <tbody>

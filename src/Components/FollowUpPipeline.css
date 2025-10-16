@@ -1,0 +1,51 @@
+.pipeline-container {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.pipeline-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.pipeline-column {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.pipeline-column h3 {
+  text-align: center;
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+.followup-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.followup-card:hover {
+  transform: scale(1.02);
+}
+
+.followup-card h4 {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.notas {
+  color: #555;
+  font-size: 0.9em;
+  background: #f0f8ff;
+  padding: 5px;
+  border-radius: 5px;
+}

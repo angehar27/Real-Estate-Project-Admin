@@ -5,6 +5,8 @@
   text-align: center;
 }
 
+
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -40,3 +42,25 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('./assets/BienesRaíces_Fondo.png'); /* Ajusta el nombre */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Para que no se mueva al hacer scroll */
+  filter: blur(0px);
+  overflow-x: hidden;
+}
+
+/* Capa semitransparente encima del fondo */
+.app-container {
+  position: relative;
+  min-height: 100vh;
+  backdrop-filter: blur(6px); /* difumina ligeramente el fondo */
+  background-color: rgba(0, 0, 0, 0.3); /* oscurece un poco para resaltar contenido */
+  color: white;
+}
+

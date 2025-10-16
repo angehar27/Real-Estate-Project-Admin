@@ -1,0 +1,80 @@
+.client-container {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.client-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.client-table th {
+  background-color: #007bff;
+  color: white;
+  text-align: left;
+  padding: 10px;
+}
+
+.client-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+.client-table tr:hover {
+  background-color: #f2f8ff;
+}
+
+.estado {
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.estado.nuevo {
+  background-color: #d1f7c4;
+  color: #1b5e20;
+}
+
+.estado.en-seguimiento {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.estado.cerrado {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.btn-ver,
+.btn-editar,
+.btn-eliminar {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.btn-ver {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.btn-editar {
+  background-color: #ffc107;
+  color: black;
+}
+
+.btn-eliminar {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-ver:hover,
+.btn-editar:hover,
+.btn-eliminar:hover {
+  opacity: 0.8;
+}

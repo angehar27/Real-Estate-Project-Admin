@@ -1,0 +1,108 @@
+.dashboard-container {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.metric-card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.metric-card.total {
+  background-color: #007bff;
+}
+
+.metric-card.clientes {
+  background-color: #17a2b8;
+}
+
+.metric-card.citas {
+  background-color: #ffc107;
+  color: black;
+}
+
+.metric-card.ventas {
+  background-color: #28a745;
+}
+
+.metric-card h3 {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+.chart-section {
+  margin-top: 30px;
+}
+
+.bar-chart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.bar-item {
+  text-align: center;
+}
+
+.bar {
+  width: 30px;
+  background-color: #007bff;
+  border-radius: 5px 5px 0 0;
+  transition: height 0.3s;
+}
+
+.bar-item span {
+  margin-top: 5px;
+  display: block;
+}
+
+.top-clientes {
+  margin-top: 40px;
+}
+
+.cliente-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.info {
+  font-size: 0.95em;
+  margin-bottom: 5px;
+}
+
+.progreso {
+  background-color: #e9ecef;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  height: 18px;
+}
+
+.progreso .barra {
+  background-color: #28a745;
+  height: 100%;
+  border-radius: 8px 0 0 8px;
+}
+
+.progreso span {
+  position: absolute;
+  right: 8px;
+  top: 1px;
+  font-size: 0.8em;
+  color: #333;
+}

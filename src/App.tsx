@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div className="app-container" style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
-      <h1>🏡 Sistema de Gestión Inmobiliaria</h1>
+      <h1>Sistema de Gestión Inmobiliaria</h1>
       
       {/* --- Navigation Bar (NOW ALL ACTIVE) --- */}
       <nav style={{ borderBottom: '2px solid #ccc', paddingBottom: '10px', marginBottom: '20px' }}>
@@ -49,25 +49,25 @@ function App() {
           onClick={() => setCurrentView('dashboard')} 
           style={getButtonStyle('dashboard')}
         >
-          Dashboard (S5)
+          Dashboard
         </button>
         <button 
           onClick={() => setCurrentView('properties')} 
           style={getButtonStyle('properties')}
         >
-          Propiedades (S1/S4)
+          Propiedades
         </button>
         <button 
           onClick={() => setCurrentView('clients')} 
           style={getButtonStyle('clients')}
         >
-          Clientes (S2)
+          Clientes
         </button>
         <button 
           onClick={() => setCurrentView('pipeline')} 
           style={getButtonStyle('pipeline')}
         >
-          Seguimiento (S3)
+          Seguimiento
         </button>
       </nav>
 
